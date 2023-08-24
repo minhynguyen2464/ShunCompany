@@ -6,20 +6,61 @@
 
 body {
 	font-family: 'Nunito', sans-serif;
+	color: #939393;
 }
 
 .navbar {
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 48px;
 }
 
-nav .btn {
-	padding-left: 20px;
-	padding-right: 20px;
+.btn {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 30px;
+	font-size: 0.8rem;
+}
+
+.nav-btn {
+	padding: 5px 15px 5px 15px;
 	border-radius: 20px;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 }
 
 nav li {
 	font-size: 0.9rem;
+}
+
+.heading {
+	color: black;
+	font-weight: bolder;
+	font-size: 4rem;
+	margin-bottom: 20px;
+}
+
+.untree_co-hero {
+	padding-bottom: 64px;
+}
+
+.untree_co-section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.untree_co-section #caption {
+	font-size: 2.5rem;
+	color: black;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+.author img {
+	border-radius: 35px;
 }
